@@ -16,3 +16,20 @@
 - 👤 [Explore the creator's projects](https://go.ondev.store/sksalik).
 - 🌍 [Create with OMGithub](https://go.ondev.store/).
 <!-- omgithub:readme:end -->
+
+## Run locally
+
+This is a standalone browser game (HTML, CSS, and JavaScript); it does not require Unity or a build step.
+
+1. From the project directory, start a local web server, for example:
+   ```sh
+   python3 -m http.server 8000
+   ```
+2. Open `http://localhost:8000` in a modern desktop or mobile browser and press **Deploy**.
+
+## Controls
+
+- **Desktop:** WASD or arrow keys to move, mouse to aim, click to fire, **R** to reload, **H** to heal, **C** to crouch, **Q** to aim down sights, and **Shift** to sprint.
+- **Touch:** use the left movement stick and the on-screen aim, fire, reload, crouch, and heal controls.
+
+Stay inside the shrinking safe zone, collect supplies, and outlast the other operators. The game uses a lightweight 2D canvas renderer to keep the standalone build mobile-friendly.
